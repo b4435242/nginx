@@ -1,0 +1,16 @@
+2023/08/01 13:14:39 [emerg] 1753#0: open() "/c/Users/Administrator/nginx/objs/conf/nginx.conf" failed (2: No such file or directory)
+2023/08/01 13:21:54 [emerg] 1757#0: "server" directive is not allowed here in /c/Users/Administrator/nginx/objs/conf/nginx.conf:1
+2023/08/01 13:25:01 [emerg] 1772#0: no "events" section in configuration
+2023/08/01 13:26:09 [warn] 1774#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /c/Users/Administrator/nginx/objs/conf/nginx.conf:2
+2023/08/01 13:26:09 [emerg] 1774#0: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /c/Users/Administrator/nginx/objs/conf/nginx.conf:14
+2023/08/01 13:29:08 [warn] 1785#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /c/Users/Administrator/nginx/objs/conf/nginx.conf:2
+2023/08/01 13:29:08 [emerg] 1785#0: mkdir() "/c/Users/Administrator/nginx/objs/temp/client_body_temp" failed (2: No such file or directory)
+2023/08/01 13:30:22 [emerg] 1786#0: no "events" section in configuration
+2023/08/01 13:30:50 [warn] 1787#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /c/Users/Administrator/nginx/objs/conf/nginx.conf:2
+2023/08/01 13:30:50 [emerg] 1787#0: mkdir() "/c/Users/Administrator/nginx/objs/temp/client_body_temp" failed (2: No such file or directory)
+2023/08/01 13:33:36 [warn] 1789#0: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /c/Users/Administrator/nginx/objs/conf/nginx.conf:2
+2023/08/01 13:33:43 [error] 1791#0: *1 "/c/Users/Administrator/nginx/objs/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/08/01 13:33:43 [error] 1791#0: *1 open() "/c/Users/Administrator/nginx/objs/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/08/01 13:34:01 [error] 1791#0: *4 "/c/Users/Administrator/nginx/objs/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/08/01 13:34:02 [error] 1791#0: *4 "/c/Users/Administrator/nginx/objs/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/08/01 13:48:25 [error] 1791#0: *7 "/c/Users/Administrator/nginx/objs/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
