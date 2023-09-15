@@ -1,6 +1,6 @@
 
 CC =	gcc
-CFLAGS =  -pipe  -O -O0 -W -Wall -Wpointer-arith -Wno-unused -g 
+CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused -g -O0
 CPP =	gcc -E
 LINK =	$(CC)
 
@@ -253,7 +253,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/os/unix/ngx_setaffinity.o \
 	objs/src/os/unix/ngx_setproctitle.o \
 	objs/src/os/unix/ngx_posix_init.o \
-	objs/src/os/unix/ngx_user.o -lcrypt \
+	objs/src/os/unix/ngx_user.o \
 	objs/src/os/unix/ngx_process_cycle.o \
 	objs/src/event/modules/ngx_select_module.o \
 	objs/src/event/modules/ngx_poll_module.o \
@@ -304,7 +304,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_upstream_least_conn_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
 	objs/ngx_modules.o \
-	
+	-lcrypt
 	
 
 
@@ -688,9 +688,9 @@ objs/src/os/unix/ngx_posix_init.o:	$(CORE_DEPS) \
 
 objs/src/os/unix/ngx_user.o:	$(CORE_DEPS) \
 	src/os/unix/ngx_user.c
-	$(CC) -c $(CFLAGS) $(CORE_INCS)  \
+	$(CC) -c $(CFLAGS) $(CORE_INCS) \
 		-o objs/src/os/unix/ngx_user.o \
-		src/os/unix/ngx_user.c 
+		src/os/unix/ngx_user.c
 
 
 objs/src/os/unix/ngx_process_cycle.o:	$(CORE_DEPS) \
@@ -1080,6 +1080,6 @@ install:	objs/nginx
 
 	test -d '$(DESTDIR)/logs' || 		mkdir -p '$(DESTDIR)/logs'
 
-	test -d '$(DESTDIR)/html' 		|| cp -R docs/html '$(DESTDIR)'
+	test -d '$(DESTDIR)/html' 		|| cp -R html '$(DESTDIR)'
 
 	test -d '$(DESTDIR)/logs' || 		mkdir -p '$(DESTDIR)/logs'

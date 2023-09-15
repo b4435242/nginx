@@ -29,3 +29,8 @@
 #define NGX_HAVE_SYS_STATVFS_H  1
 #endif
 
+
+#ifndef NGX_HAVE_CRYPT_H
+#define NGX_HAVE_CRYPT_H  1
+#endif
+

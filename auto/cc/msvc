@@ -7,6 +7,7 @@
 # MSVC Toolkit 2003 (7.1)
 # MSVC 2005 Express Edition SP1 (8.0)
 
+NGX_MSVC_VER=22.00
 # optimizations
 
 # maximize speed, equivalent to -Og -Oi -Ot -Oy -Ob2 -Gs -GF -Gy

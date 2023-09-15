@@ -6,9 +6,9 @@
 all:
 	cd $(OPENSSL)
 
-	perl Configure VC-WIN32 no-shared --prefix=openssl $(OPENSSL_OPT)
+	perl Configure VC-WIN64A no-shared --prefix=openssl $(OPENSSL_OPT)
 
-	ms\do_ms
+	ms\do_win64a
 
 	$(MAKE) -f ms\nt.mak
 	$(MAKE) -f ms\nt.mak install

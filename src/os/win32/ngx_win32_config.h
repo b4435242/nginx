@@ -9,7 +9,7 @@
 #define _NGX_WIN32_CONFIG_H_INCLUDED_
 
 
-#define WIN32         0x0400
+//#define WIN32         0x0400
 #define _WIN32_WINNT  0x0501
 
 
@@ -132,7 +132,7 @@ typedef int                 intptr_t;
 typedef u_int               uintptr_t;
 
 /* Windows defines off_t as long, which is 32-bit */
-typedef __int64             off_t;
+//typedef __int64             off_t;
 #define _OFF_T_DEFINED
 
 typedef int                 ssize_t;

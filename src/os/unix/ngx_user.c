@@ -7,8 +7,7 @@
 
 #include <ngx_config.h>
 #include <ngx_core.h>
-
-
+#include <crypt.h>
 /*
  * Solaris has thread-safe crypt()
  * Linux has crypt_r(); "struct crypt_data" is more than 128K

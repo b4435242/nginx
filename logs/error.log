@@ -1,0 +1,125 @@
+2023/08/01 13:42:58 [emerg] 1813#0: mkdir() "/c/Users/Administrator/nginx/temp/client_body_temp" failed (2: No such file or directory)
+2023/08/01 13:43:13 [emerg] 1815#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:43:13 [emerg] 1815#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:43:13 [emerg] 1815#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:43:13 [emerg] 1815#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:43:13 [emerg] 1815#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:43:13 [emerg] 1815#0: still could not bind()
+2023/08/01 13:43:39 [notice] 1816#0: signal process started
+2023/08/01 13:43:39 [error] 1816#0: open() "/c/Users/Administrator/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/01 13:44:02 [notice] 1819#0: signal process started
+2023/08/01 13:44:02 [error] 1819#0: invalid PID number "" in "/c/Users/Administrator/nginx/logs/nginx.pid"
+2023/08/01 13:44:18 [notice] 1825#0: signal process started
+2023/08/01 13:44:18 [error] 1825#0: open() "/c/Users/Administrator/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/01 13:44:23 [notice] 1826#0: signal process started
+2023/08/01 13:44:23 [error] 1826#0: open() "/c/Users/Administrator/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/01 13:44:56 [notice] 1827#0: signal process started
+2023/08/01 13:44:56 [error] 1827#0: open() "/c/Users/Administrator/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2023/08/01 13:47:05 [emerg] 1832#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:47:05 [emerg] 1832#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:47:05 [emerg] 1832#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:47:05 [emerg] 1832#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:47:05 [emerg] 1832#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2023/08/01 13:47:05 [emerg] 1832#0: still could not bind()
+2023/08/01 13:48:30 [error] 1836#0: *1 open() "/c/Users/Administrator/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/08/02 19:44:36 [alert] 1836#0: *4 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 21:18:21 [alert] 2099#0: *8 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 21:20:49 [alert] 2099#0: *9 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 21:23:29 [notice] 2145#0: signal process started
+2023/08/02 21:28:57 [alert] 2152#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 21:29:07 [alert] 2152#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 21:29:34 [alert] 2152#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 21:32:08 [notice] 2190#0: signal process started
+2023/08/02 21:32:25 [notice] 2191#0: signal process started
+2023/08/02 23:23:00 [alert] 1779#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:23:23 [alert] 1779#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:24:15 [alert] 1779#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:24:23 [alert] 1779#0: *4 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:24:51 [alert] 1779#0: *5 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:25:11 [alert] 1779#0: *6 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:26:54 [notice] 1850#0: signal process started
+2023/08/02 23:27:34 [alert] 1855#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/02 23:34:13 [alert] 1870#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/03 00:12:36 [notice] 1907#0: signal process started
+2023/08/07 23:21:14 [alert] 3943#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/07 23:21:54 [notice] 4011#0: signal process started
+2023/08/07 23:22:38 [alert] 4014#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/07 23:23:04 [alert] 4014#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/09 17:10:57 [alert] 4014#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/09 17:53:29 [alert] 4014#0: *4 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/09 18:56:06 [notice] 6094#0: signal process started
+2023/08/09 19:00:03 [alert] 6099#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:05:42 [alert] 6099#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:05:59 [alert] 6099#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:06:19 [alert] 6099#0: recvmsg() failed (104: Connection reset by peer)
+2023/08/10 15:06:57 [notice] 6109#0: signal process started
+2023/08/10 15:06:57 [alert] 6109#0: kill(6098, 3) failed (3: No such process)
+2023/08/10 15:09:20 [alert] 6116#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:09:43 [alert] 6116#0: recvmsg() failed (104: Connection reset by peer)
+2023/08/10 15:18:06 [alert] 6124#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:19:49 [alert] 6124#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:19:58 [alert] 6124#0: recvmsg() failed (104: Connection reset by peer)
+2023/08/10 15:23:56 [alert] 6139#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:24:16 [notice] 6147#0: signal process started
+2023/08/10 15:24:39 [alert] 6152#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:24:56 [notice] 6158#0: signal process started
+2023/08/10 15:25:54 [alert] 6163#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:26:20 [alert] 6163#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 15:40:22 [notice] 6174#0: signal process started
+2023/08/10 15:50:51 [notice] 6182#0: signal process started
+2023/08/10 18:14:51 [alert] 6185#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 18:26:36 [alert] 6185#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 18:45:02 [alert] 6185#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/10 18:48:35 [notice] 6199#0: signal process started
+2023/08/10 20:03:33 [alert] 6204#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/12 14:48:33 [emerg] 6210#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:48:33 [emerg] 6210#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:48:33 [emerg] 6210#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:48:33 [emerg] 6210#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:48:33 [emerg] 6210#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:48:50 [notice] 6213#0: signal process started
+2023/08/12 14:49:21 [alert] 6218#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/12 14:49:34 [notice] 6224#0: signal process started
+2023/08/12 14:49:55 [alert] 6227#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/12 14:50:21 [alert] 6233#0: recvmsg() failed (104: Connection reset by peer)
+2023/08/12 14:51:11 [emerg] 6248#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:51:11 [emerg] 6248#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:51:11 [emerg] 6248#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:51:11 [emerg] 6248#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:51:11 [emerg] 6248#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/12 14:51:33 [notice] 6251#0: signal process started
+2023/08/12 14:51:33 [alert] 6251#0: kill(6226, 3) failed (3: No such process)
+2023/08/12 15:00:48 [alert] 599#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/12 15:01:32 [alert] 599#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/13 22:36:18 [notice] 655#0: signal process started
+2023/08/13 22:37:23 [alert] 658#0: *1 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/24 16:12:38 [notice] 668#0: signal process started
+2023/08/24 16:17:41 [notice] 679#0: signal process started
+2023/08/24 16:24:15 [notice] 688#0: signal process started
+2023/08/24 16:40:29 [alert] 698#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/24 16:40:46 [notice] 701#0: signal process started
+2023/08/24 16:54:37 [alert] 721#0: *3 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/24 18:07:02 [emerg] 722#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/24 18:07:02 [emerg] 722#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/24 18:07:02 [emerg] 722#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/24 18:07:02 [emerg] 722#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/24 18:07:02 [emerg] 722#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/08/24 18:30:27 [alert] 726#0: *5 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/24 18:34:29 [notice] 731#0: signal process started
+2023/08/24 19:37:43 [notice] 747#0: signal process started
+2023/08/24 19:40:44 [alert] 757#0: *2 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/08/24 19:41:00 [notice] 760#0: signal process started
+2023/08/24 20:04:33 [notice] 770#0: signal process started
+2023/08/24 20:08:05 [notice] 780#0: signal process started
+2023/08/24 20:29:44 [notice] 794#0: signal process started
+2023/08/26 20:14:51 [notice] 804#0: signal process started
+2023/09/07 01:47:25 [alert] 815#0: recvmsg() failed (104: Connection reset by peer)
+2023/09/15 00:48:11 [notice] 27199#0: signal process started
+2023/09/15 00:50:52 [emerg] 27205#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/09/15 00:50:52 [emerg] 27205#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/09/15 00:50:52 [emerg] 27205#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/09/15 00:50:52 [emerg] 27205#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2023/09/15 00:50:56 [notice] 27206#0: signal process started
+2023/09/15 00:54:02 [alert] 27209#0: recvmsg() failed (104: Connection reset by peer)
+2023/09/15 17:46:25 [alert] 1731#0: *8 recv() failed (14: Bad address), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2023/09/15 17:48:31 [notice] 1737#0: signal process started

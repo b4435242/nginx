@@ -67,22 +67,6 @@ checking for sys/statvfs.h
 ----------------------------------------
 checking for crypt.h
 
-objs/autotest.c:3:10: fatal error: crypt.h: No such file or directory
-    3 | #include <crypt.h>
-      |          ^~~~~~~~~
-compilation terminated.
-----------
-
-#include <sys/param.h>
-#include <crypt.h>
-
-int main() {
-    return 0;
-}
-
-----------
-gcc -o objs/autotest objs/autotest.c
-----------
 
 ----------------------------------------
 checking for poll()
@@ -113,7 +97,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -135,7 +119,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -145,7 +129,7 @@ objs/autotest.c: In function 'main':
 objs/autotest.c:7:5: warning: implicit declaration of function 'crypt' [-Wimplicit-function-declaration]
     7 |     crypt("test", "salt");;
       |     ^~~~~
-/usr/lib/gcc/x86_64-pc-msys/11.3.0/../../../../x86_64-pc-msys/bin/ld: /tmp/cc8nWUgM.o:autotest.c:(.text+0x22): undefined reference to `crypt'
+/usr/lib/gcc/x86_64-pc-msys/11.3.0/../../../../x86_64-pc-msys/bin/ld: /tmp/ccps1wh4.o:autotest.c:(.text+0x22): undefined reference to `crypt'
 collect2: error: ld returned 1 exit status
 ----------
 
@@ -159,7 +143,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -169,22 +153,6 @@ objs/autotest.c: In function 'main':
 objs/autotest.c:7:5: warning: implicit declaration of function 'crypt' [-Wimplicit-function-declaration]
     7 |     crypt("test", "salt");;
       |     ^~~~~
-/usr/lib/gcc/x86_64-pc-msys/11.3.0/../../../../x86_64-pc-msys/bin/ld: cannot find -lcrypt: No such file or directory
-collect2: error: ld returned 1 exit status
-----------
-
-#include <sys/types.h>
-#include <unistd.h>
-
-
-int main() {
-    crypt("test", "salt");;
-    return 0;
-}
-
-----------
-gcc -o objs/autotest objs/autotest.c -lcrypt
-----------
 
 ----------------------------------------
 checking for F_READAHEAD
@@ -206,7 +174,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -237,7 +205,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -264,7 +232,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -292,7 +260,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -327,7 +295,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -350,7 +318,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -375,7 +343,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -416,7 +384,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -426,22 +394,22 @@ checking for accept4()
 ----------------------------------------
 checking for int size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for long size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for long long size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for void * size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for uint64_t
@@ -454,7 +422,7 @@ checking for sig_atomic_t
 ----------------------------------------
 checking for sig_atomic_t size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for socklen_t
@@ -479,17 +447,17 @@ checking for system byte ordering
 ----------------------------------------
 checking for size_t size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for off_t size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for time_t size
 
-auto/types/sizeof: line 39: -o: command not found
+auto/types/sizeof: line 39: -O0: command not found
 
 ----------------------------------------
 checking for setproctitle()
@@ -498,7 +466,7 @@ objs/autotest.c: In function 'main':
 objs/autotest.c:7:5: warning: implicit declaration of function 'setproctitle' [-Wimplicit-function-declaration]
     7 |     setproctitle("test");;
       |     ^~~~~~~~~~~~
-/usr/lib/gcc/x86_64-pc-msys/11.3.0/../../../../x86_64-pc-msys/bin/ld: /tmp/ccWyVh9x.o:autotest.c:(.text+0x18): undefined reference to `setproctitle'
+/usr/lib/gcc/x86_64-pc-msys/11.3.0/../../../../x86_64-pc-msys/bin/ld: /tmp/ccUG66tZ.o:autotest.c:(.text+0x18): undefined reference to `setproctitle'
 collect2: error: ld returned 1 exit status
 ----------
 
@@ -512,7 +480,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -576,7 +544,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -621,7 +589,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c
+gcc -O0 -o objs/autotest objs/autotest.c
 ----------
 
 ----------------------------------------
@@ -659,7 +627,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c -lmd
+gcc -O0 -o objs/autotest objs/autotest.c -lmd
 ----------
 
 ----------------------------------------
@@ -681,7 +649,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c -lmd5
+gcc -O0 -o objs/autotest objs/autotest.c -lmd5
 ----------
 
 ----------------------------------------
@@ -703,7 +671,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c -lcrypto
+gcc -O0 -o objs/autotest objs/autotest.c -lcrypto
 ----------
 
 ----------------------------------------
@@ -725,7 +693,7 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c -lmd
+gcc -O0 -o objs/autotest objs/autotest.c -lmd
 ----------
 
 ----------------------------------------
@@ -747,5 +715,5 @@ int main() {
 }
 
 ----------
-gcc -o objs/autotest objs/autotest.c -lcrypto
+gcc -O0 -o objs/autotest objs/autotest.c -lcrypto
 ----------
